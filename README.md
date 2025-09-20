@@ -36,7 +36,7 @@ When you run it, you’ll see something like this (but different every time!):
 1. Clone this repo:
 
    ```bash
-   git clone https://github.com/your-username/turtle-dot-painting.git
+   git clone https://github.com/VasilisKokotakis/turtle-dot-painting.git
    cd turtle-dot-painting
    ```
 
