@@ -1,39 +1,52 @@
----
 
-# 🎨 Turtle Dot Painting
+# 🎨 Turtle Dot Painting — Interactive Edition
 
-Bring Damien Hirst vibes to your Python screen with a splash of colors 🐢✨
+Bring **Damien Hirst vibes** to your Python screen with a splash of colors and a touch of interactivity 🐢✨
 
-This project uses the Python **turtle graphics** library to draw a grid of colorful dots — inspired by the famous dot paintings. Each run generates a new random palette arrangement, making it always unique.
+This upgraded version of *Turtle Dot Painting* lets you **generate new artworks** and **save them** right from inside the window — no keyboard shortcuts needed!
 
 ---
 
 ## 🌟 Features
 
-* Generates a **10 × 10 grid** of vibrant dots
-* Colors are picked randomly from a curated palette 🎨
-* Super fast drawing (no more waiting forever for turtle to finish 🐇💨)
-* Starts painting from the bottom-left corner, just like an artist at their canvas
+✅ Generates a **10 × 10 grid** of vibrant, randomly colored dots
+✅ **Interactive buttons** to create new paintings or save your artwork
+✅ **No external libraries** — pure Python and turtle magic
+✅ Each artwork is unique and instantly re-generatable
+✅ Saved paintings are timestamped as `.eps` files for easy export
+
+---
+
+## 🖱️ New Interactive Controls
+
+After each painting finishes, two buttons appear at the bottom:
+
+| Button               | Action                                                      |
+| -------------------- | ----------------------------------------------------------- |
+| 🖼 **Save Painting** | Exports your current artwork as an `.eps` image file        |
+| 🔁 **New Painting**  | Clears the canvas and generates a brand-new random painting |
+
+Just click the buttons inside the Turtle window — no need to type anything in the console!
 
 ---
 
 ## 🖼️ Demo
 
-When you run it, you’ll see something like this (but different every time!):
+Every click of “New Painting” gives you something new and colorful:
 
 ```
-🔵 🔴 🟡 🟢 🟣
-🟡 🟢 🔴 🔵 🟣
+🔴 🔵 🟢 🟣 🟡
+🟣 🟡 🔵 🟢 🔴
 ...
 ```
 
-*(ok, not exactly like that, but way prettier 😎)*
+*(...but way prettier and smoother in the Turtle window 😄)*
 
 ---
 
 ## 🚀 How to Run
 
-1. Clone this repo:
+1. Clone this repository:
 
    ```bash
    git clone https://github.com/VasilisKokotakis/turtle-dot-painting.git
@@ -46,37 +59,44 @@ When you run it, you’ll see something like this (but different every time!):
    python main.py
    ```
 
-3. Click the turtle window when you’re done admiring your masterpiece 🖌️
+3. Wait for the painting to complete, then click a button:
+
+   * **Save Painting** 💾 → save it to your folder
+   * **New Painting** 🎨 → make another masterpiece
 
 ---
 
 ## 🛠️ Requirements
 
 * Python 3.7+
-* `turtle` (built into Python 🐢)
+* `turtle` (built-in)
 * `random` (standard library)
-
-No external libraries needed. Just pure Python magic ✨
-
----
-
-## 💡 Ideas to Play With
-
-* Change the number of dots (`number_of_dots`)
-* Try different dot sizes (`tim.dot(20, ...)`)
-* Add more colors to the palette
-* Randomize dot sizes for a funky effect
+* No extra installs required 🚫📦
 
 ---
 
-## 🐢 Fun Fact
+## 💡 Tips & Customization
 
-The **turtle** module was named after the original **Logo Turtle Robot** (from the 1960s). It was a real robot on wheels that drew with a pen! 🖊️
+You can tweak these constants at the top of the script:
+
+```python
+GRID_SIZE = 10       # Grid size (10x10)
+DOT_SIZE = 20        # Dot diameter
+SPACING = 50         # Distance between dots
+START_OFFSET = 250   # Canvas offset from center
+```
+
+Try experimenting with different values for your own style!
+
+---
+
+## 🧠 Fun Fact
+
+The **turtle** module was inspired by the 1960s **Logo Turtle Robot**, a real machine that moved on the floor and drew with a pen! 🐢🖊️
 
 ---
 
 ## 📜 License
 
-MIT — feel free to paint the world with dots 🌍✨
+MIT — share the colors, spread the joy 🌈✨
 
----
