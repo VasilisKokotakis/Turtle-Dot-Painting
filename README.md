@@ -98,5 +98,5 @@ The **turtle** module was inspired by the 1960s **Logo Turtle Robot**, a real ma
 
 ## 📜 License
 
-MIT — share the colors, spread the joy 🌈✨
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
 
